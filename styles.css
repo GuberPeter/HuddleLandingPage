@@ -1,0 +1,171 @@
+body {
+  background-image: url(./images/bg-mobile.svg);
+  background-color: #674baf;
+  background-repeat: no-repeat;
+  margin: 0 11%;
+  text-align: center;
+  color: white;
+
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 0.95rem;
+  display: inline-block;
+  margin: 0 auto 20px;
+  line-height: 1.5;
+}
+
+button {
+font-family: 'Poppins', sans-serif;
+}
+
+footer {
+  margin-top: 80px;
+}
+
+.attribution {
+  color: white;
+}
+
+.logodiv {
+  margin: 30px auto 60px;
+  text-align: left;
+}
+
+.logo {
+  width: 42%;
+}
+
+.illustration {
+  width: 100%;
+  height: auto;
+  margin: 0 auto 60px;
+}
+
+.btn {
+  background-color: white;
+    border: none;
+    color: #674baf;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    width: 210px;
+    line-height: 8px;
+    border-radius: 20px;
+}
+
+.register {
+  margin: 0 auto 60px;
+}
+
+.flexbox {
+display: flex;
+justify-content: center;
+}
+
+.item {
+  width: 8%;
+  margin: auto 5px;
+}
+
+@media only screen and (min-width: 1440px) {
+
+body {
+  background-image: url(./images/bg-desktop.svg);
+  margin: 0 7%;
+}
+
+h1 {
+  font-size: 2.4rem;
+  line-height: 1.5;
+width: 80%;
+}
+
+p {
+    font-size: 1.36rem;
+}
+
+footer {
+  margin-top: 40px;
+}
+
+.logodiv {
+  margin-top: 60px ;
+}
+
+.logo {
+  width: 20%;
+}
+
+.container {
+  columns: 600px 2;
+  column-gap: 60px;
+  display: inline-block;
+}
+
+.left-container {
+  text-align: left;
+width: 100%;
+display: block;
+}
+
+.illustration {
+  width: 100%;
+}
+
+.right-container {
+  width: 100%;
+  text-align: left;
+  display: block;
+}
+
+.right-container-text {
+  padding-top: 40px;
+}
+
+.header-text {
+  width: 90%;
+}
+
+.btn {
+  background-color: white;
+    border: none;
+    color: #674baf;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    width: 220px;
+    line-height: 8px;
+    border-radius: 20px;
+}
+
+.flexbox {
+  justify-content: flex-end;
+}
+
+.item {
+  height: 35px;
+  width: 3%;
+}
+
+}
